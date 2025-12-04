@@ -1,5 +1,5 @@
-
-flowchart TD
+```mermaid
+graph TD
   A[Access: Portugal WB - RENTECION.accdb] --> B{Botón}
   B -->|NuevasDenuncias| NL[Load DenunciasLocal]
   B -->|Proceso Masivo Campañas| C[Macro RW-PROCESO]
